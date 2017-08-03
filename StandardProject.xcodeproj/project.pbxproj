@@ -349,6 +349,7 @@
 				TargetAttributes = {
 					8BB2744D1F331A770070DA33 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E8U8KL397R;
 						ProvisioningStyle = Automatic;
 					};
 					8BB274691F331A770070DA33 = {
@@ -618,7 +619,9 @@
 			baseConfigurationReference = 7D4CC6D8B6C8789954517B33 /* Pods-StandardProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E8U8KL397R;
 				INFOPLIST_FILE = StandardProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quzhongrensan.StandardProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -630,7 +633,9 @@
 			baseConfigurationReference = 13A93509DB09C51DB25D918D /* Pods-StandardProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E8U8KL397R;
 				INFOPLIST_FILE = StandardProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quzhongrensan.StandardProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
