@@ -1,6 +1,0 @@
-framework module Pods_StandardProject {
-  umbrella header "Pods-StandardProject-umbrella.h"
-
-  export *
-  module * { export * }
-}

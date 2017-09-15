@@ -1,12 +1,38 @@
 PODS:
-  - Bugly (2.4.6)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - WMPageController (1.6.9)
 
 DEPENDENCIES:
-  - Bugly
+  - AFNetworking (~> 3.1.0)
+  - Masonry (~> 1.0.2)
+  - MBProgressHUD (~> 1.0.0)
+  - MJRefresh
+  - WMPageController (~> 1.6.4)
 
 SPEC CHECKSUMS:
-  Bugly: 7756e72c59387b0d490f46e83ab458ae94ee7fba
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  WMPageController: 38eea9daebfb12d495b8063e15df64cd6aadc400
 
-PODFILE CHECKSUM: d4bdbf2a348cd1efc0e732ef8509cc129bd8355d
+PODFILE CHECKSUM: d929fc0be8f630da96d8a161d4aa29364c110316
 
 COCOAPODS: 1.1.1

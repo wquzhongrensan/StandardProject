@@ -7,7 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C79CEB2AD76BE2F6BF34E61 /* Pods_StandardProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC25D4B00868CE1296135C5 /* Pods_StandardProject.framework */; };
+		6A56CDD1AAE7E1480FCA0225 /* libPods-StandardProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 023C4F79C0FC61A85DA063D7 /* libPods-StandardProject.a */; };
+		8B6F47BD1F6BAB40003D2270 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F47BC1F6BAB40003D2270 /* BaseTabBarController.m */; };
+		8B6F47C81F6BABC3003D2270 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F47C71F6BABC3003D2270 /* BaseNavigationController.m */; };
+		8B6F47E91F6BACEA003D2270 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F47CC1F6BACEA003D2270 /* ViewController.m */; };
+		8B6F47EA1F6BACEA003D2270 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F47D41F6BACEA003D2270 /* ViewController.m */; };
+		8B6F47EB1F6BACEA003D2270 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F47DC1F6BACEA003D2270 /* ViewController.m */; };
+		8B6F47EF1F6BAD1A003D2270 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F47EE1F6BAD1A003D2270 /* HomeViewController.m */; };
+		8B6F47F21F6BAF5A003D2270 /* HomeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F47F11F6BAF5A003D2270 /* HomeListViewController.m */; };
+		8B6F47F91F6BAFB6003D2270 /* CircleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F47F51F6BAFB6003D2270 /* CircleScrollView.m */; };
+		8B6F47FA1F6BAFB6003D2270 /* ImageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F47F71F6BAFB6003D2270 /* ImageContentView.m */; };
+		8B6F47FB1F6BAFB6003D2270 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F47F81F6BAFB6003D2270 /* README.md */; };
+		8B6F47FF1F6BB09F003D2270 /* JPBaseNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F47FE1F6BB09F003D2270 /* JPBaseNetwork.m */; };
+		8B6F48021F6BB0B4003D2270 /* JPNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F48011F6BB0B4003D2270 /* JPNetworkManager.m */; };
+		8B6F48051F6BB22C003D2270 /* JPNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F48041F6BB22C003D2270 /* JPNetwork.m */; };
+		8B6F48081F6BB4E9003D2270 /* HomeListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F48071F6BB4E9003D2270 /* HomeListTableViewCell.m */; };
+		8B6F480B1F6BB97A003D2270 /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F480A1F6BB97A003D2270 /* HomeDetailViewController.m */; };
 		8BB274531F331A770070DA33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB274521F331A770070DA33 /* main.m */; };
 		8BB2745F1F331A770070DA33 /* StandardProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2745D1F331A770070DA33 /* StandardProject.xcdatamodeld */; };
 		8BB274611F331A770070DA33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB274601F331A770070DA33 /* Assets.xcassets */; };
@@ -37,8 +52,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		023C4F79C0FC61A85DA063D7 /* libPods-StandardProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StandardProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A93509DB09C51DB25D918D /* Pods-StandardProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandardProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-StandardProject/Pods-StandardProject.release.xcconfig"; sourceTree = "<group>"; };
 		7D4CC6D8B6C8789954517B33 /* Pods-StandardProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandardProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StandardProject/Pods-StandardProject.debug.xcconfig"; sourceTree = "<group>"; };
+		8B6F47BB1F6BAB40003D2270 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		8B6F47BC1F6BAB40003D2270 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		8B6F47C61F6BABC3003D2270 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		8B6F47C71F6BABC3003D2270 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		8B6F47CB1F6BACEA003D2270 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B6F47CC1F6BACEA003D2270 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B6F47D31F6BACEA003D2270 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B6F47D41F6BACEA003D2270 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B6F47DB1F6BACEA003D2270 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B6F47DC1F6BACEA003D2270 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B6F47ED1F6BAD1A003D2270 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8B6F47EE1F6BAD1A003D2270 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8B6F47F01F6BAF5A003D2270 /* HomeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeListViewController.h; sourceTree = "<group>"; };
+		8B6F47F11F6BAF5A003D2270 /* HomeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListViewController.m; sourceTree = "<group>"; };
+		8B6F47F41F6BAFB6003D2270 /* CircleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleScrollView.h; sourceTree = "<group>"; };
+		8B6F47F51F6BAFB6003D2270 /* CircleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleScrollView.m; sourceTree = "<group>"; };
+		8B6F47F61F6BAFB6003D2270 /* ImageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageContentView.h; sourceTree = "<group>"; };
+		8B6F47F71F6BAFB6003D2270 /* ImageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageContentView.m; sourceTree = "<group>"; };
+		8B6F47F81F6BAFB6003D2270 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8B6F47FD1F6BB09F003D2270 /* JPBaseNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPBaseNetwork.h; sourceTree = "<group>"; };
+		8B6F47FE1F6BB09F003D2270 /* JPBaseNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPBaseNetwork.m; sourceTree = "<group>"; };
+		8B6F48001F6BB0B4003D2270 /* JPNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNetworkManager.h; sourceTree = "<group>"; };
+		8B6F48011F6BB0B4003D2270 /* JPNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNetworkManager.m; sourceTree = "<group>"; };
+		8B6F48031F6BB22C003D2270 /* JPNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNetwork.h; sourceTree = "<group>"; };
+		8B6F48041F6BB22C003D2270 /* JPNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNetwork.m; sourceTree = "<group>"; };
+		8B6F48061F6BB4E9003D2270 /* HomeListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeListTableViewCell.h; sourceTree = "<group>"; };
+		8B6F48071F6BB4E9003D2270 /* HomeListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListTableViewCell.m; sourceTree = "<group>"; };
+		8B6F48091F6BB97A003D2270 /* HomeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDetailViewController.h; sourceTree = "<group>"; };
+		8B6F480A1F6BB97A003D2270 /* HomeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDetailViewController.m; sourceTree = "<group>"; };
 		8BB2744E1F331A770070DA33 /* StandardProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandardProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB274521F331A770070DA33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BB2745E1F331A770070DA33 /* StandardProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StandardProject.xcdatamodel; sourceTree = "<group>"; };
@@ -51,7 +96,6 @@
 		8BB274751F331A770070DA33 /* StandardProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandardProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB274791F331A770070DA33 /* StandardProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardProjectUITests.m; sourceTree = "<group>"; };
 		8BB2747B1F331A770070DA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BC25D4B00868CE1296135C5 /* Pods_StandardProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StandardProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF901861F331FAA0065402B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BF901881F331FB50065402B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8BF901891F331FB50065402B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -64,7 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C79CEB2AD76BE2F6BF34E61 /* Pods_StandardProject.framework in Frameworks */,
+				6A56CDD1AAE7E1480FCA0225 /* libPods-StandardProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +136,251 @@
 				13A93509DB09C51DB25D918D /* Pods-StandardProject.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B6F47BA1F6BAB17003D2270 /* BaseTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F47BB1F6BAB40003D2270 /* BaseTabBarController.h */,
+				8B6F47BC1F6BAB40003D2270 /* BaseTabBarController.m */,
+			);
+			path = BaseTabBarController;
+			sourceTree = "<group>";
+		};
+		8B6F47C21F6BABA2003D2270 /* BaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F47C61F6BABC3003D2270 /* BaseNavigationController.h */,
+				8B6F47C71F6BABC3003D2270 /* BaseNavigationController.m */,
+			);
+			path = BaseNavigationController;
+			sourceTree = "<group>";
+		};
+		8B6F47C91F6BACEA003D2270 /* Fun */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F47CA1F6BACEA003D2270 /* Controller */,
+				8B6F47CD1F6BACEA003D2270 /* Model */,
+				8B6F47CE1F6BACEA003D2270 /* Resource */,
+				8B6F47CF1F6BACEA003D2270 /* Service */,
+				8B6F47D01F6BACEA003D2270 /* View */,
+			);
+			path = Fun;
+			sourceTree = "<group>";
+		};
+		8B6F47CA1F6BACEA003D2270 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F47CB1F6BACEA003D2270 /* ViewController.h */,
+				8B6F47CC1F6BACEA003D2270 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B6F47CD1F6BACEA003D2270 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B6F47CE1F6BACEA003D2270 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8B6F47CF1F6BACEA003D2270 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8B6F47D01F6BACEA003D2270 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B6F47D11F6BACEA003D2270 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F47D21F6BACEA003D2270 /* Controller */,
+				8B6F47D51F6BACEA003D2270 /* Model */,
+				8B6F47D61F6BACEA003D2270 /* Resource */,
+				8B6F47D71F6BACEA003D2270 /* Service */,
+				8B6F47D81F6BACEA003D2270 /* View */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		8B6F47D21F6BACEA003D2270 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F47D31F6BACEA003D2270 /* ViewController.h */,
+				8B6F47D41F6BACEA003D2270 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B6F47D51F6BACEA003D2270 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B6F47D61F6BACEA003D2270 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8B6F47D71F6BACEA003D2270 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8B6F47D81F6BACEA003D2270 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B6F47D91F6BACEA003D2270 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F47DA1F6BACEA003D2270 /* Controller */,
+				8B6F47DD1F6BACEA003D2270 /* Model */,
+				8B6F47DE1F6BACEA003D2270 /* Resource */,
+				8B6F47DF1F6BACEA003D2270 /* Service */,
+				8B6F47E01F6BACEA003D2270 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		8B6F47DA1F6BACEA003D2270 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F47DB1F6BACEA003D2270 /* ViewController.h */,
+				8B6F47DC1F6BACEA003D2270 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B6F47DD1F6BACEA003D2270 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B6F47DE1F6BACEA003D2270 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8B6F47DF1F6BACEA003D2270 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8B6F47E01F6BACEA003D2270 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B6F47E11F6BACEA003D2270 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F47E21F6BACEA003D2270 /* Controller */,
+				8B6F47E51F6BACEA003D2270 /* Model */,
+				8B6F47E61F6BACEA003D2270 /* Resource */,
+				8B6F47E71F6BACEA003D2270 /* Service */,
+				8B6F47E81F6BACEA003D2270 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8B6F47E21F6BACEA003D2270 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F47ED1F6BAD1A003D2270 /* HomeViewController.h */,
+				8B6F47EE1F6BAD1A003D2270 /* HomeViewController.m */,
+				8B6F47F01F6BAF5A003D2270 /* HomeListViewController.h */,
+				8B6F47F11F6BAF5A003D2270 /* HomeListViewController.m */,
+				8B6F48091F6BB97A003D2270 /* HomeDetailViewController.h */,
+				8B6F480A1F6BB97A003D2270 /* HomeDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B6F47E51F6BACEA003D2270 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B6F47E61F6BACEA003D2270 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8B6F47E71F6BACEA003D2270 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8B6F47E81F6BACEA003D2270 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F48061F6BB4E9003D2270 /* HomeListTableViewCell.h */,
+				8B6F48071F6BB4E9003D2270 /* HomeListTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B6F47F31F6BAFB6003D2270 /* CircleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F47F41F6BAFB6003D2270 /* CircleScrollView.h */,
+				8B6F47F51F6BAFB6003D2270 /* CircleScrollView.m */,
+				8B6F47F61F6BAFB6003D2270 /* ImageContentView.h */,
+				8B6F47F71F6BAFB6003D2270 /* ImageContentView.m */,
+				8B6F47F81F6BAFB6003D2270 /* README.md */,
+			);
+			path = CircleScrollView;
+			sourceTree = "<group>";
+		};
+		8B6F47FC1F6BB074003D2270 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F47FD1F6BB09F003D2270 /* JPBaseNetwork.h */,
+				8B6F47FE1F6BB09F003D2270 /* JPBaseNetwork.m */,
+				8B6F48001F6BB0B4003D2270 /* JPNetworkManager.h */,
+				8B6F48011F6BB0B4003D2270 /* JPNetworkManager.m */,
+				8B6F48031F6BB22C003D2270 /* JPNetwork.h */,
+				8B6F48041F6BB22C003D2270 /* JPNetwork.m */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		8BB274451F331A770070DA33 = {
@@ -180,6 +469,7 @@
 		8BF901791F331BAF0065402B /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				8B6F47F31F6BAFB6003D2270 /* CircleScrollView */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -187,6 +477,8 @@
 		8BF9017A1F331BAF0065402B /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				8B6F47C21F6BABA2003D2270 /* BaseNavigationController */,
+				8B6F47BA1F6BAB17003D2270 /* BaseTabBarController */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -201,6 +493,7 @@
 		8BF9017C1F331BAF0065402B /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				8B6F47FC1F6BB074003D2270 /* Network */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -208,6 +501,10 @@
 		8BF9017D1F331BAF0065402B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				8B6F47E11F6BACEA003D2270 /* Home */,
+				8B6F47C91F6BACEA003D2270 /* Fun */,
+				8B6F47D11F6BACEA003D2270 /* Video */,
+				8B6F47D91F6BACEA003D2270 /* Mine */,
 				8BF9017F1F331BFD0065402B /* Main */,
 			);
 			path = Modules;
@@ -274,7 +571,7 @@
 		D4619C3DDEE99E27CC96FEEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8BC25D4B00868CE1296135C5 /* Pods_StandardProject.framework */,
+				023C4F79C0FC61A85DA063D7 /* libPods-StandardProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -464,10 +761,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6F47EB1F6BACEA003D2270 /* ViewController.m in Sources */,
+				8B6F47E91F6BACEA003D2270 /* ViewController.m in Sources */,
+				8B6F47F21F6BAF5A003D2270 /* HomeListViewController.m in Sources */,
+				8B6F47BD1F6BAB40003D2270 /* BaseTabBarController.m in Sources */,
+				8B6F47EF1F6BAD1A003D2270 /* HomeViewController.m in Sources */,
+				8B6F47EA1F6BACEA003D2270 /* ViewController.m in Sources */,
+				8B6F48081F6BB4E9003D2270 /* HomeListTableViewCell.m in Sources */,
 				8BF9018D1F331FBF0065402B /* AppDelegate.m in Sources */,
+				8B6F47C81F6BABC3003D2270 /* BaseNavigationController.m in Sources */,
+				8B6F480B1F6BB97A003D2270 /* HomeDetailViewController.m in Sources */,
 				8BF9018A1F331FB50065402B /* ViewController.m in Sources */,
+				8B6F47F91F6BAFB6003D2270 /* CircleScrollView.m in Sources */,
+				8B6F48021F6BB0B4003D2270 /* JPNetworkManager.m in Sources */,
+				8B6F47FF1F6BB09F003D2270 /* JPBaseNetwork.m in Sources */,
+				8B6F47FB1F6BAFB6003D2270 /* README.md in Sources */,
 				8BB2745F1F331A770070DA33 /* StandardProject.xcdatamodeld in Sources */,
 				8BB274531F331A770070DA33 /* main.m in Sources */,
+				8B6F47FA1F6BAFB6003D2270 /* ImageContentView.m in Sources */,
+				8B6F48051F6BB22C003D2270 /* JPNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,7 +935,7 @@
 				INFOPLIST_FILE = StandardProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = quzhongrensan.StandardProject;
+				PRODUCT_BUNDLE_IDENTIFIER = quzhongrensan.StandardProject.News;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -637,7 +949,7 @@
 				INFOPLIST_FILE = StandardProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = quzhongrensan.StandardProject;
+				PRODUCT_BUNDLE_IDENTIFIER = quzhongrensan.StandardProject.News;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
